@@ -7,6 +7,8 @@ function App() {
   const [counter, setCounter] = useState(15)
   //let counter = 15
 
+
+  //setCounter(counter + 1) <-- cannot repeat all batch
   const addValue = () => {
    setCounter((prevCounter) => prevCounter + 1)
    setCounter((prevCounter) => prevCounter + 1)
